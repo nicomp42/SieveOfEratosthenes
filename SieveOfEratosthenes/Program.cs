@@ -11,11 +11,16 @@ namespace SieveOfEratosthenes
     {
         static void Main(string[] args)
         {
+            Test(new SieveOfEratosthenes_nicholdw(), "nicholdw");
+
+        }
+        private static void Test(SieveOfEratosthenes sieve, String name)
+        { 
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
-            (new SieveOfEratosthenes_nicholdw()).Solve(2,100);
+            sieve.Solve(3,1000000000);
             stopWatch.Stop();
-            Console.WriteLine(stopWatch.ElapsedMilliseconds.ToString() + " Milliseconds");
+            Console.WriteLine(name + ": " + stopWatch.ElapsedMilliseconds.ToString() + " Milliseconds");
         }
     }
 }
