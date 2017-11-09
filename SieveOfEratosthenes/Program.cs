@@ -18,7 +18,7 @@ namespace SieveOfEratosthenes
         { 
             Stopwatch stopWatch = new Stopwatch();
             stopWatch.Start();
-            sieve.Solve(3,1000000000);
+            sieve.Solve(3, 1000000);
             stopWatch.Stop();
             Console.WriteLine(name + ": " + stopWatch.ElapsedMilliseconds.ToString() + " Milliseconds");
         }
