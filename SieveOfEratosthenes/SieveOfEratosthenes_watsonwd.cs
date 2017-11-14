@@ -6,7 +6,7 @@
  * Citations: https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes 
  * Course: Contemporary programming fall 2017
  * Additional info:
- * 
+ * Fixed push
  * ***************************************************************/
 
 using System;
