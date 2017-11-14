@@ -63,7 +63,6 @@ namespace SieveOfEratosthenes
 
             }//end for every value not exceeding sqrt of stop value
 
-
             //create list array g to return 
             List<long> g = new List<long>();
 
