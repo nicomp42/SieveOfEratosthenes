@@ -46,7 +46,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SieveOfEratosthenes.cs" />
-    <Compile Include="SieveOfEratosthenes_crueybm.cs" />
+    <Compile Include="SieveOfEratosthenes_bruceba.cs" />
     <Compile Include="SieveOfEratosthenes_nicholdw.cs" />
     <Compile Include="SieveOfEratosthenes_watsonwd.cs" />
   </ItemGroup>
