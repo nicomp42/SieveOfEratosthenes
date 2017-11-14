@@ -43,7 +43,6 @@ namespace SieveOfEratosthenes
                     solution.Add(i);
                 }
             }
-
             return solution;
         }
     }
