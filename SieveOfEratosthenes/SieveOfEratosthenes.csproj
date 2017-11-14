@@ -48,6 +48,7 @@
     <Compile Include="SieveOfEratosthenes.cs" />
     <Compile Include="SieveOfEratosthenes_crueybm.cs" />
     <Compile Include="SieveOfEratosthenes_nicholdw.cs" />
+    <Compile Include="SieveOfEratosthenes_watsonwd.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
