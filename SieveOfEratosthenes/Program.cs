@@ -12,6 +12,7 @@ namespace SieveOfEratosthenes
         static void Main(string[] args)
         {
             Test(new SieveOfEratosthenes_nicholdw(), "nicholdw");
+            Test(new JeffreysClass(), "tskhadjr");
 
         }
         private static void Test(SieveOfEratosthenes sieve, String name)
@@ -22,5 +23,7 @@ namespace SieveOfEratosthenes
             stopWatch.Stop();
             Console.WriteLine(name + ": " + stopWatch.ElapsedMilliseconds.ToString() + " Milliseconds");
         }
+
+
     }
 }
